@@ -14,7 +14,7 @@ function CoResolver(): ComponentResolver {
   return {
     type: 'component',
     resolve: (name: string) => {
-      if (name.startsWith('Nu')) {
+      if (name.startsWith('Co')) {
         return {
           name,
           from: 'cometu',
