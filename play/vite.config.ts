@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     Vue(),
     AutoImport({
-      imports: ['vue', 'vue/macros'],
+      imports: ['vue'],
     }),
     Components({
       resolvers: [CoResolver()],

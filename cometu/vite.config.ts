@@ -10,7 +10,7 @@ export default defineConfig({
     Vue(),
     Dts({ cleanVueFileName: true }),
     AutoImport({
-      imports: ['vue', 'vue/macros', '@vueuse/core'],
+      imports: ['vue', '@vueuse/core'],
       dts: 'src/types/auto-imports.d.ts',
     }),
     Components({
